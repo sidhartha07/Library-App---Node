@@ -28,7 +28,7 @@ function validate(){
 
 function checkpass(){
     // let regpas =/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{7,}$/
-    let regpas =/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d@$!%*?&]{7,}$/
+        let regpas =/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d@$!%*?&]{7,}$/
       if((pwd.value.length>=0)&&(pwd.value.length<2)){
         strength.innerHTML="WEAK";
         strength.style.color="RED";
